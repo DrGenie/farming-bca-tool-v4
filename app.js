@@ -406,7 +406,7 @@
       box.innerHTML = state.validation.map((m) => `<div>${escapeHtml(m)}</div>`).join('');
     } else {
       box.className = 'message info';
-      box.textContent = 'The workbook was read successfully. Direct costs were calculated internally from the individual workbook components, including pesticides and cost of amendment where provided.';
+      box.textContent = 'The workbook was read successfully. Direct costs were calculated internally from the individual workbook components.';
     }
   }
 
